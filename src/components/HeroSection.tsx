@@ -18,9 +18,9 @@ const HeroSection = () => (
           <a href="#contact" className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:opacity-90 transition-opacity">
             <Mail size={18} /> Contact Me
           </a>
-          <button className="inline-flex items-center gap-2 border border-primary text-primary px-6 py-3 rounded-lg font-medium hover:bg-primary/10 transition-colors">
+          <a href="/Afza_Khan_Resume.pdf" download className="inline-flex items-center gap-2 border border-primary text-primary px-6 py-3 rounded-lg font-medium hover:bg-primary/10 transition-colors">
             <Download size={18} /> Download Resume
-          </button>
+          </a>
         </div>
       </motion.div>
 
