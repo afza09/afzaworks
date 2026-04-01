@@ -32,7 +32,7 @@ const HeroSection = () => (
       >
         <div className="relative">
           <div className="absolute -inset-1 rounded-full bg-gradient-to-tr from-primary to-accent blur-lg opacity-40" />
-          <img src={profileImg} alt="Afza Khan" width={400} height={400} className="relative rounded-full w-72 h-72 md:w-96 md:h-96 object-cover object-bottom border-4 border-primary/30" />
+          <img src={profileImg} alt="Afza Khan" width={400} height={400} className="relative rounded-full w-72 h-72 md:w-96 md:h-96 object-cover object-top border-4 border-primary/30" />
         </div>
       </motion.div>
     </div>
