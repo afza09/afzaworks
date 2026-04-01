@@ -10,7 +10,7 @@ const HeroSection = () => (
         <h1 className="font-heading text-5xl md:text-7xl font-bold text-foreground mb-4">
           Afza <span className="text-gradient">Khan</span>
         </h1>
-        <p className="text-lg text-muted-foreground mb-2 font-heading font-medium">Computer Engineering Student | Web & App Developer</p>
+        <p className="text-lg text-muted-foreground mb-2 font-heading font-medium">Computer Engineering Graduate | Web & App Developer</p>
         <p className="text-muted-foreground mb-8 max-w-lg leading-relaxed">
           Passionate about transforming ideas into elegant digital solutions. I combine strong technical foundations with creative problem-solving to build innovative applications.
         </p>
