@@ -24,9 +24,9 @@ const ContactSection = () => {
         <div className="grid md:grid-cols-2 gap-10">
           <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="space-y-6">
             {[
-              { icon: Mail, label: "Email", value: "afza.khan@email.com" },
-              { icon: Phone, label: "Phone", value: "+91 XXXXX XXXXX" },
-              { icon: Github, label: "GitHub", value: "github.com/afzakhan" },
+              { icon: Mail, label: "Email", value: "afzakhan2006@gmail.com" },
+              { icon: Phone, label: "Phone", value: "+91 9167825423" },
+              { icon: Github, label: "GitHub", value: "github.com/afza09" },
             ].map((c, i) => (
               <div key={i} className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
