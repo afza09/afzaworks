@@ -218,3 +218,8 @@ cd <repository-name>
 npm i
 npm run dev
 ```
+## Deployment
+
+This portfolio is deployed using GitHub Pages.
+
+Live Website: https://afza09.github.io/afzaworks/
