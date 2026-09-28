@@ -30,6 +30,12 @@ jobs:
       - name: Build
         run: npm run build
 
+        - name: Check build output
+         run: |
+    echo "Checking dist folder..."
+    ls -la dist
+    test -f dist/index.html
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
